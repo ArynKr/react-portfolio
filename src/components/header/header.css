@@ -38,7 +38,7 @@ header {
 
 /* ============= ME ============== */
 .me {
-	padding-top: 7rem;
+	padding-top: 5rem;
 	background: linear-gradient(
 		to bottom,
 		var(--color-primary),
