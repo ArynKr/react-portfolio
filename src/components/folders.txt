@@ -1,9 +1,0 @@
-about    
-experience  
-header  
-portfolio  
-testimonials
-contact 
-footer      
-nav     
-services

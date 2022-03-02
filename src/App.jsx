@@ -15,14 +15,14 @@ const App = () => {
 	return (
 		<div>
 			<Header />
-			<About />
-			<Contact />
-			<Experience />
-			<Footer />
 			<Nav />
-			<Portfolio />
+			<About />
+			<Experience />
 			<Services />
+			<Portfolio />
 			<Testimonials />
+			<Contact />
+			<Footer />
 		</div>
 	);
 };
