@@ -68,7 +68,6 @@ h1 {
 
 section {
 	margin-top: 8rem;
-	height: 100vh;
 }
 
 section > h2,
@@ -124,7 +123,7 @@ img {
 }
 
 /* ==================== MEDIA QUERIES (MEDIUM DEVICES) 1024px ==================== */
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
 	.container {
 		width: var(--container-width-md);
 	}
@@ -135,7 +134,7 @@ img {
 }
 
 /* ==================== MEDIA QUERIES (SMALL  DEVICES) 600px ==================== */
-@media (min-width: 600px) {
+@media (max-width: 600px) {
 	.container {
 		width: var(--container-width-sm);
 	}
