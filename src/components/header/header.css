@@ -32,7 +32,7 @@ header {
 .header__socials::after {
 	content: '';
 	width: 2pt;
-	height: 1rem;
+	height: 2rem;
 	background: var(--color-primary);
 }
 
