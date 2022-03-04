@@ -50,6 +50,10 @@
 	font-size: 0.9rem;
 }
 
+.service {
+	height: auto;
+}
+
 /* =============== MEDIA QUERY (MEDIUM DEVICES) 1024px ==================== */
 @media screen and (max-width: 1024px) {
 	.services__container {
