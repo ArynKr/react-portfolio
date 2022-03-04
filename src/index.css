@@ -53,6 +53,12 @@ body {
 	margin: 0 auto;
 }
 
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 85%;
+	}
+}
+
 h1,
 h2,
 h3,
