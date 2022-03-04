@@ -66,14 +66,19 @@ header {
 /* =============== MEDIA QUERY (MEDIUM DEVICES) 1024px ==================== */
 @media screen and (max-width: 1024px) {
 	header {
-		height: 68vh;
+		height: 100vh;
 	}
 }
 
 /* =============== MEDIA QUERY (SMALL DEVICES) 600px ==================== */
 @media screen and (max-width: 600px) {
 	header {
-		height: 100vh;
+		height: 48rem;
+	}
+
+	.me {
+		width: 18rem;
+		left: calc(50% - 9rem);
 	}
 
 	.header__socials,
