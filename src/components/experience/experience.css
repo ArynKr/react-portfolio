@@ -46,12 +46,12 @@
 /* =============== MEDIA QUERY (MEDIUM DEVICES) 1024px ==================== */
 @media screen and (max-width: 1024px) {
 	.experience__container {
-		grid-template-columns: 1fr;
+		grid-template-columns: 1fr 1fr;
 	}
 
 	.experience__container > div {
-		width: 60%;
-		padding: 2rem;
+		width: 100%;
+		padding: 2rem 1rem;
 		margin: 0 auto;
 	}
 
@@ -67,6 +67,7 @@
 /* =============== MEDIA QUERY (SMALL DEVICES) 600px ==================== */
 @media screen and (max-width: 600px) {
 	.experience__container {
+		grid-template-columns: 1fr;
 		gap: 1rem;
 	}
 	.experience__container > div {

@@ -12,6 +12,9 @@ import {
 	SiMysql,
 	SiExpress,
 	SiPostgresql,
+	SiBootstrap,
+	SiFirebase,
+	SiVercel,
 } from 'react-icons/si';
 
 import './experience.css';
@@ -31,6 +34,13 @@ const Experience = () => {
 							<FaReact className='experience__details-icon' />
 							<div>
 								<h4>React JS</h4>
+								<small className='text-light'>Experienced</small>
+							</div>
+						</article>
+						<article className='experience__details'>
+							<SiNextdotjs className='experience__details-icon' />
+							<div>
+								<h4>Next JS</h4>
 								<small className='text-light'>Experienced</small>
 							</div>
 						</article>
@@ -66,6 +76,13 @@ const Experience = () => {
 							<SiChakraui className='experience__details-icon' />
 							<div>
 								<h4>Chakra UI</h4>
+								<small className='text-light'>Experienced</small>
+							</div>
+						</article>
+						<article className='experience__details'>
+							<SiBootstrap className='experience__details-icon' />
+							<div>
+								<h4>Bootstrap</h4>
 								<small className='text-light'>Experienced</small>
 							</div>
 						</article>
@@ -115,6 +132,20 @@ const Experience = () => {
 							<SiPostgresql className='experience__details-icon' />
 							<div>
 								<h4>PostgreSQL</h4>
+								<small className='text-light'>Experienced</small>
+							</div>
+						</article>
+						<article className='experience__details'>
+							<SiFirebase className='experience__details-icon' />
+							<div>
+								<h4>Firebase</h4>
+								<small className='text-light'>Experienced</small>
+							</div>
+						</article>
+						<article className='experience__details'>
+							<SiVercel className='experience__details-icon' />
+							<div>
+								<h4>Vercel</h4>
 								<small className='text-light'>Experienced</small>
 							</div>
 						</article>
