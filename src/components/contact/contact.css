@@ -56,8 +56,15 @@ textarea {
 
 /* =============== MEDIA QUERY (MEDIUM DEVICES) 1024px ==================== */
 @media screen and (max-width: 1024px) {
+	.container.contact__container {
+		grid-template-columns: 1fr;
+		gap: 2rem;
+	}
 }
 
 /* =============== MEDIA QUERY (SMALL DEVICES) 600px ==================== */
 @media screen and (max-width: 600px) {
+	.container.contact__container {
+		width: var(--container-width-sm);
+	}
 }
