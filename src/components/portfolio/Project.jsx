@@ -1,5 +1,4 @@
 function Project({ project }) {
-	console.log(project);
 	return (
 		<article className='portfolio__item'>
 			<div className='portfolio__item-image'>
