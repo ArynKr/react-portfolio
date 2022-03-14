@@ -1,4 +1,4 @@
-import me from '../../assets/me.png';
+import me from '../../assets/workingstack.png';
 import { FaAward } from 'react-icons/fa';
 import { VscFolderActive } from 'react-icons/vsc';
 
@@ -38,13 +38,31 @@ const About = () => {
 						</article>
 					</div>
 
-					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-						Ea ut ratione quidem laudantium soluta eveniet harum iusto
-						consequuntur at excepturi eos natus, magnam ex enim,
-						provident iste tempore quisquam itaque.
+					<p
+						style={{
+							marginBottom: '0',
+							fontSize: '1.5rem',
+							fontWeight: 'bold',
+						}}
+					>
+						Hi, I’m Aryan. Nice to meet you.
 					</p>
-
+					<p style={{ marginTop: '1rem', marginBottom: '0' }}>
+						I'm a full-stack developer based in Kolkata, India.
+					</p>
+					<p style={{ marginTop: '1rem', marginBottom: '0' }}>
+						I am an undergraduate currently pursuing B. Tech in
+						Information Technology from Heritage Institute of
+						Technology, Kolkata.
+					</p>
+					<p style={{ marginTop: '1rem', marginBottom: '0' }}>
+						I love learning about new technologies and using them in
+						my projects to create something beneficial and practical.
+					</p>
+					<p style={{ marginTop: '1rem', marginBottom: '1.5rem' }}>
+						Feel free to take a look at my latest projects{' '}
+						<a href='#portfolio'>here.</a>
+					</p>
 					<a href='#contact' className='btn btn-primary'>
 						Let's Talk
 					</a>

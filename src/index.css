@@ -53,6 +53,10 @@ body {
 	margin: 0 auto;
 }
 
+section {
+	padding-top: 2rem;
+}
+
 @media screen and (max-width: 1200px) {
 	.container {
 		width: 85%;
@@ -143,6 +147,10 @@ img {
 @media (max-width: 600px) {
 	.container {
 		width: var(--container-width-sm);
+	}
+
+	section {
+		padding-top: 1rem;
 	}
 
 	section > h2 {

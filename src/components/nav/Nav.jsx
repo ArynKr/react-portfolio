@@ -32,16 +32,16 @@ const Nav = () => {
 				<BiBook />
 			</a>
 			<a
-				href='#services'
-				onClick={() => setActiveNav('#services')}
-				className={activeNav === '#services' ? 'active' : ''}
+				href='#contact'
+				onClick={() => setActiveNav('#contact')}
+				className={activeNav === '#contact' ? 'active' : ''}
 			>
 				<RiServiceLine />
 			</a>
 			<a
-				href='#contact'
-				onClick={() => setActiveNav('#contact')}
-				className={activeNav === '#contact' ? 'active' : ''}
+				href='#footer'
+				onClick={() => setActiveNav('#footer')}
+				className={activeNav === '#footer' ? 'active' : ''}
 			>
 				<BiMessageSquareDetail />
 			</a>

@@ -19,10 +19,11 @@
 
 .about__me-image {
 	width: 100%;
+	height: 100%;
 	border-radius: 2rem;
-	background: #11667f;
+	background: var(--color-bg-variant);
 	overflow: hidden;
-	transform: rotate(10deg);
+	transform: rotate(5deg);
 	transition: var(--transition);
 }
 

@@ -4,14 +4,13 @@ import {
 	SiGithub,
 	SiGmail,
 	SiTwitter,
-	SiInstagram,
 } from 'react-icons/si';
 
 import './footer.css';
 
 const Footer = () => {
 	return (
-		<footer>
+		<footer id='footer'>
 			<a href='#' className='footer__logo'>
 				ArynKr
 			</a>
@@ -30,7 +29,7 @@ const Footer = () => {
 					<a href='#services'>Services</a>
 				</li>
 				<li>
-					<a href='#projects'>Projects</a>
+					<a href='#portfolio'>Projects</a>
 				</li>
 				<li>
 					<a href='#contact'>Contact</a>
@@ -46,9 +45,6 @@ const Footer = () => {
 				</a>
 				<a href='https://www.twitter.com/Aryn__Kr'>
 					<SiTwitter />
-				</a>
-				<a href='https://www.instagram.com/codequate'>
-					<SiInstagram />
 				</a>
 				<a href='mailto:aryankumar1504@gmail.com'>
 					<SiGmail />
