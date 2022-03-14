@@ -10,7 +10,10 @@ header {
 	position: relative;
 }
 
-.header__container h5 {
+.typed {
+	display: inline-block;
+	min-height: 1.7rem;
+	letter-spacing: 0.2rem;
 	font-size: 1.3rem;
 	color: #fff;
 }
