@@ -1,6 +1,6 @@
 import me from '../../assets/workingstack.png';
 import { FaAward } from 'react-icons/fa';
-import { VscFolderActive } from 'react-icons/vsc';
+import { VscFolderActive, VscLibrary } from 'react-icons/vsc';
 
 import './about.css';
 
@@ -32,9 +32,9 @@ const About = () => {
 						</article>
 
 						<article className='about__card'>
-							<FaAward className='about__icon' />
-							<h5>Experience</h5>
-							<small>2+ years</small>
+							<VscLibrary className='about__icon' />
+							<h5>Tech Stacks</h5>
+							<small>15+ Used</small>
 						</article>
 					</div>
 
@@ -51,17 +51,15 @@ const About = () => {
 						I'm a full-stack developer based in Kolkata, India.
 					</p>
 					<p style={{ marginTop: '1rem', marginBottom: '0' }}>
-						I am an undergraduate currently pursuing B. Tech in
-						Information Technology from Heritage Institute of
-						Technology, Kolkata.
+						I am an undergraduate currently pursuing B. Tech in Information Technology from Heritage
+						Institute of Technology, Kolkata.
 					</p>
 					<p style={{ marginTop: '1rem', marginBottom: '0' }}>
-						I love learning about new technologies and using them in
-						my projects to create something beneficial and practical.
+						I love learning about new technologies and using them in my projects to create something
+						beneficial and practical.
 					</p>
 					<p style={{ marginTop: '1rem', marginBottom: '1.5rem' }}>
-						Feel free to take a look at my latest projects{' '}
-						<a href='#portfolio'>here.</a>
+						Feel free to take a look at my latest projects <a href='#portfolio'>here.</a>
 					</p>
 					<a href='#contact' className='btn btn-primary'>
 						Let's Talk
