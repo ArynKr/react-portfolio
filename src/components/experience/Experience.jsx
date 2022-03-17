@@ -15,6 +15,8 @@ import {
 	SiBootstrap,
 	SiFirebase,
 	SiVercel,
+	SiStyledcomponents,
+	SiRedux,
 } from 'react-icons/si';
 
 import './experience.css';
@@ -41,6 +43,13 @@ const Experience = () => {
 							<SiNextdotjs className='experience__details-icon' />
 							<div>
 								<h4>Next JS</h4>
+								<small className='text-light'>Experienced</small>
+							</div>
+						</article>
+						<article className='experience__details'>
+							<SiRedux className='experience__details-icon' />
+							<div>
+								<h4>Redux</h4>
 								<small className='text-light'>Experienced</small>
 							</div>
 						</article>
@@ -76,7 +85,7 @@ const Experience = () => {
 							<SiChakraui className='experience__details-icon' />
 							<div>
 								<h4>Chakra UI</h4>
-								<small className='text-light'>Experienced</small>
+								<small className='text-light'>Intermediate</small>
 							</div>
 						</article>
 						<article className='experience__details'>
@@ -84,6 +93,13 @@ const Experience = () => {
 							<div>
 								<h4>Bootstrap</h4>
 								<small className='text-light'>Experienced</small>
+							</div>
+						</article>
+						<article className='experience__details'>
+							<SiStyledcomponents className='experience__details-icon' />
+							<div>
+								<h4>Styled Components</h4>
+								<small className='text-light'>Intermediate</small>
 							</div>
 						</article>
 					</div>
@@ -125,21 +141,21 @@ const Experience = () => {
 							<SiMysql className='experience__details-icon' />
 							<div>
 								<h4>MySQL</h4>
-								<small className='text-light'>Experienced</small>
+								<small className='text-light'>Intermediate</small>
 							</div>
 						</article>
 						<article className='experience__details'>
 							<SiPostgresql className='experience__details-icon' />
 							<div>
 								<h4>PostgreSQL</h4>
-								<small className='text-light'>Experienced</small>
+								<small className='text-light'>Intermediate</small>
 							</div>
 						</article>
 						<article className='experience__details'>
 							<SiFirebase className='experience__details-icon' />
 							<div>
 								<h4>Firebase</h4>
-								<small className='text-light'>Experienced</small>
+								<small className='text-light'>Basic</small>
 							</div>
 						</article>
 						<article className='experience__details'>
